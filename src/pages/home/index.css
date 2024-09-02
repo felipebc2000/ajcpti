@@ -1,0 +1,93 @@
+
+.secao-inicio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 27, 97);
+    align-items: center;
+    color: aliceblue;
+
+    padding: 20px;
+
+}
+
+.secao-inicio header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+
+    max-width: 1200px ;
+    width: 100%;
+}
+
+.secao-inicio header .logo{
+   justify-content: baseline;
+    width: 200px;
+    
+    
+
+
+}
+
+.secao-inicio header nav{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;    
+    
+}
+
+
+
+
+.secao-inicio header nav a{
+    font: 500 20px 'Rubik';
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.secao-inicio main{
+    display: flex;
+    flex-direction: row;
+
+    max-width: 1000px;
+    width: 1200px;
+    
+}
+
+.secao-inicio main .textos{
+    display: flex;
+    flex-direction:column;
+
+}
+
+.secao-inicio main .textos h1{
+    font: 700 60px 'RUBIK';
+    text-transform: uppercase;
+
+}
+
+.secao-inicio main .textos p{
+    font: 200 40px 'ARIAL';
+
+}
+
+.secao-inicio main .capa{
+    
+    width: 500px;
+    border-radius: 20px;
+
+
+}
+
+.secao-inicio .texto-fim{
+    font: 200 30px 'rubik';
+    align-items: center;
+}
+
+.Final{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
